@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "711013926736",
+    "project_id": "safa-app-40c35",
+    "storage_bucket": "safa-app-40c35.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:711013926736:android:50ced4fbe32ac39aefce55",
+        "android_client_info": {
+          "package_name": "com.example.push_notifications"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARacKGI14A3dO20xzkIk-2Nq7pkIW1vqQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:711013926736:android:1afef8a95e16c179efce55",
+        "android_client_info": {
+          "package_name": "com.example.safa_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARacKGI14A3dO20xzkIk-2Nq7pkIW1vqQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
