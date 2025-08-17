@@ -8,8 +8,6 @@ class PushNotificationsService {
   static FirebaseMessaging messaging = FirebaseMessaging.instance;
   static Future init() async {
     messaging.requestPermission();
-    final String? token = await messaging.getToken();
-    log(token ?? "token is null");
     FirebaseMessaging.onBackgroundMessage(handleBackgroundMessage);
     FirebaseMessaging.onMessage.listen((RemoteMessage message) {
       LocalNotificationService.showBasicNotification(message: message);
@@ -18,6 +16,5 @@ class PushNotificationsService {
 
   static Future<void> handleBackgroundMessage(RemoteMessage message) async {
     await Firebase.initializeApp();
-    log(message.notification?.title ?? 'no notification');
   }
 }
